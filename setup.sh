@@ -6,13 +6,14 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 
 # utils
 brew install ack
+brew install tree
+brew install watch
 brew install --cask scroll-reverser
+brew install --cask keta
 
 # app cli
 brew install git
 brew install gh
-brew install azure-cli
-brew install gradle
 
 # k8s
 brew install docker
@@ -31,11 +32,12 @@ brew install yarn
 
 # java
 brew install maven  
+brew install gradle
 brew install jabba 
 
 # IDE & editor
 brew install --cask visual-studio-code
-brew install --cask intellij-idea
+brew install --cask intellij-idea-ce
 brew install --cask typora
 brew install --cask xmind-zen
 
@@ -43,4 +45,5 @@ brew install --cask xmind-zen
 brew install websocat
 brew install --cask postman
 
-
+# just for fun
+brew install --cask openemu
